@@ -27,7 +27,7 @@ To create  a Java program to perform the inheritance concept for employee detail
 
 
 ## PROGRAM:
- ```java
+ ```
 /*
 Program to implement a Inheritance using Java
 Developed by: Rohit GP 
@@ -36,7 +36,7 @@ RegisterNumber:  212224220082
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.Scanner;
 
 // Base class
