@@ -16,20 +16,31 @@ To write a Java program that creates a StringBuilder object using a given string
  ```
 /*
 Program to implement a StringBuilder Object Reference in Java
-Developed by: 
-RegisterNumber:  
+Developed by: Rohit GP 
+RegisterNumber:  212224220082  
 */
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.Scanner;
 
+public class StringBuilderExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String str1 = scanner.nextLine();
 
+        StringBuilder sb = new StringBuilder(str1);
 
-
-
-
+        System.out.println(sb.length());
+        System.out.println( (sb.length() + 16));
+    }
+}
+```
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/5b7a8739-b88f-465d-a187-a0c1f6e35103)
 
 
 
